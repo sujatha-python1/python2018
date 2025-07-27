@@ -1,0 +1,35 @@
+Student_id = 101
+Student_name = "avi"
+Student_age = 20
+Quize_score = 75
+Assignment_score = 85
+Exam_score = 80
+Student_attendence = 65
+
+#total score
+total_score =  Quize_score + Assignment_score + Exam_score
+
+#average score
+average_score = total_score / 3#static
+#average_score = total_score / leg(total_score) #dynamic 
+
+# student passed
+student_passed =average_score >= 75
+
+#Attendence simulation
+student_passed  += 1
+
+
+#award eligibility
+award_eligibility = Student_attendence >=90 and  student_passed
+
+print("student Name: {student_name}")
+print("Total Score: {total_score}")
+print("Average Score:  {average_score}")
+print("Student Passed: {student_passed}")
+print("Student Current Attendence: {student_attendence}")
+print("Student Awarded: {award_eligibility}")
+
+
+
+

@@ -1,0 +1,69 @@
+#Arithmetic operators
+num1 = 3
+num2 = 2
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2) #1.5
+print(num1%num2)
+print(num1//num2) # floor division
+print(num1**num2) #exponention(3^2)
+
+
+ #compound Assignnment operators
+  
+  num = 10
+  # num = num + 5
+  num+=5
+ print(num)
+ num+=5
+ print(num)
+
+
+# comparision / relational operators
+num1 = 3
+num2 = 2
+
+print(num1>num2)
+print(num1<num2)
+print(num!num2)
+
+
+#  logical operators
+a = 10
+b = 5
+c = 3 
+d = 8
+result_and =a>b and b<c #T and F-> F
+print(result_and)
+result_or = a >b or b>c #T or F -> T 
+print(result_or)
+result_not = a > b #->  T
+print(not result_not) #T -> F
+
+
+# membership operators
+ text = "python is eazy"
+ is _z_present = "z" in text
+ print(is_z_present)
+
+ list_name = (1,2,3)
+ is_5_present - 5 in list_nums
+ print(is_5_present)
+
+ is_z_not_present ="z" not in text
+ print(is_z_not_present)
+
+
+ # identity operators
+ num1 = 10
+ num2 = 20
+ print(id(num1))
+ print(id(num2))
+ print(num1 is num2)
+
+ num1_list = (10,20)
+ num2_list = (10,20)
+ print(id(num1_list))
+ print(num1_list is num2_list)
+ 
